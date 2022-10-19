@@ -11,7 +11,7 @@
     <script defer src="./index.js"></script>
     <title>Clock</title>
 </head>
-<body>
+<body id="body">
     <div class="clock">
         <div class="hand hours" data-hours-hand></div>
         <div class="hand minutes" data-minutes-hand></div>
@@ -28,6 +28,22 @@
         <div class="number number10">10</div>
         <div class="number number11">11</div>
         <div class="number number12">12</div>
-    </div>    
+    </div>
+        <div class="display" id="gradient"></div>
+        <div class="codes"></div>
+        <div class="inputs">
+            <input type="color" class="color1" value="#8EC5FC"></input>
+            <input type="color" class="color2" value="#E0C3FC"></input>
+            <select class="select" name="toDirection" id="toDirection">
+                <option value="to right">To Right</option>
+                <option value="to right bottom">To Right Bottom</option>
+                <option value="to right top">To Right Top</option>
+                <option value="to left">To Left</option>
+                <option value="to left bottom">To Left Bottom</option>
+                <option value="to bottom">To Bottom</option>
+                <option value="to top">To Top</option>t
+            </select>
+        </div>
+    
 </body>
 </html>
